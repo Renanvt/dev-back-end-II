@@ -420,3 +420,79 @@ Para Bezerra (2007, p. 11), “polimorfismo indica a capacidade de abstrair vár
 Resumindo, um método de uma classe herdeira que possui a mesma assinatura
 pode fazer a operação da superclasse e mais alguma instrução própria.
 Neste caso, utilizaremos o comando ```parent::``` seguido do nome do método
+
+# Interfaces e Componentes
+
+### Interface
+
+A interface é um recurso de POO muito utilizado pelos desenvolvedores de sistemas, principalmente, quando se necessita trabalhar com uma grande equipe
+de desenvolvedores e manter uma estrutura concisa e coesa. Dessa forma, temos
+que, na etapa de projeto, você pode definir conjuntos de métodos que determinadas classes do nosso sistema deverão implementar incondicionalmente. Uma
+interface possui apenas **assinatura de métodos**, ou seja, métodos prototipados,
+e não possuem atributos, por isso, compreende-se como um contrato que o desenvolvedor assina com o projetista.
+
+Interfaces de objetos permitem a criação de códigos que especificam quais
+métodos uma classe deve implementar, sem definir como esses métodos serão
+tratados. Interfaces são definidas da mesma forma que classes, mas com a palavra-chave *interface* substituindo class e com nenhum dos métodos tendo
+seu conteúdo definido. Todos os métodos declarados em uma interface **devem ser públicos**, essa é a natureza de uma interface.
+
+Para implementar uma interface, o operador *implements* é utilizado. Todos os métodos na interface devem ser implementados na classe; não fazê-lo resultará em um erro fatal. As classes podem implementar mais de uma interface se assim for desejado, separando cada interface com uma vírgula.
+
+#### Exemplo
+
+![ExemploInterface](img/ExemploInterface.png)
+
+### Componentes
+
+Um componente é, basicamente, um elemento que encapsulará uma série de
+funcionalidades. Esse componente pode ser facilmente encaixado ao ser incorporado à programação, podemos associá-lo a uma “peça” com funções específicas,
+combináveis e reusáveis. Um componente é uma **unidade independente**, ou seja,
+não teria dependência de outras classes ou componentes para ser executado,
+sendo possível ser incorporado a qualquer momento e a outros componentes
+para formar um sistema mais complexo.
+
+O uso de componentes de software possibilita **encapsular complexidades** técnicas e multidisciplinares, e o desenvolvedor não precisa conhecer os detalhes do funcionamento interno dos componentes para montar os sistemas.
+O baixo grau de acoplamento entre componentes e as interfaces bem definidas favorecem o **desenvolvimento distribuído** e a alocação de diferentes
+desenvolvedores para partes específicas do sistema, o que é desejável porque
+dificilmente uma única pessoa detém o conhecimento para desenvolver todo
+um sistema colaborativo (GEROSA; STEINMACHER, 2011).
+
+Geralmente, um componente de software é um módulo preparado para **reusar suas funcionalidades** prontas e testado em múltiplos sistemas e contextos, o
+que favorece a redução do tempo de desenvolvimento e o aumento da qualidade do sistema. Podemos associar um componente ao uso de uma biblioteca, em
+vez de criar uma classe, é possível simplesmente incluir esse componente com o
+código já criado para fazer o que se deseja.
+
+#### Funções e inclusão de componentes
+
+![ComponentesFuncoes](img/Componentes.png)
+
+Utilizamos classes associativas quando ocorrem associações entre duas classes
+que possuem multiplicidade muitos (*) em ambas as extremidades. Essa classe
+é necessária para armazenar atributos transmitidos pela associação de ambas as
+classes, o que não impede que a classe associativa possua atributos próprios, ou
+seja, armazena os atributos transmitidos pela associação.
+
+De acordo com Sommerville (2011), quando uma associação possui atributos próprios, pode-se criar uma classe associativa. Essas classes são úteis quando
+queremos armazenar o histórico de uma associação (relacionamentos que ocorrem e interessam ser salvos).
+
+A associação é representada por uma
+reta tracejada partindo
+do meio da associação
+até uma classe.
+
+#### Exemplo
+
+![ClassesAssociativas](img/classes-associativas.png)
+
+No modelo da figura, podemos observar que a multiplicidade em ambos os
+lados da associação é “*” (várias), o que implica dizer que, em um filme, podem
+haver vários atores, e um ator pode atuar em diversos filmes. Como resultado
+dessa associação, temos uma classe associativa que permite armazenar cada uma
+das atuações, juntamente com o papel, em uma classe separada.
+
+As classes associativas podem ser substituídas por classes normais, chamadas **Classes Intermediárias**, conforme o exemplo abaixo
+
+![ClassesAssociativas2](img/classes-associativas2.png)
+
+
+
