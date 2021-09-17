@@ -1,0 +1,15 @@
+{
+  "require": {
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "name": "renanvt/teste",
+  "description": "Mais um projeto PHP",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
