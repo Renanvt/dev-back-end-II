@@ -495,4 +495,37 @@ As classes associativas podem ser substituídas por classes normais, chamadas **
 ![ClassesAssociativas2](img/classes-associativas2.png)
 
 
+# PSRs
+
+# PSR4 configuração básica
+
+Editar o arquivo **composer.json**
+```json
+{
+    "require": {
+        "squizlabs/php_codesniffer": "3.*",
+        "friendsofphp/php-cs-fixer": "^3.1"
+    },
+    "name": "renanvt/teste",
+    "description": "Mais um projeto PHP",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
+```
+
+Editar o arquivo **index.php** na pasta **public**
+
+```php
+require dirname(path: __DIR__) . '/vendor/autoload.php';
+```
+
+OBS:
+- As classes devem estar dentro da pasta **src/{namespace}**
+- A pasta **src** será a pasta de Sources Root
 
