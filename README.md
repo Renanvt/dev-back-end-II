@@ -497,7 +497,7 @@ As classes associativas podem ser substituídas por classes normais, chamadas **
 
 # PSRs
 
-# PSR4 configuração básica
+### PSR4 configuração básica
 
 Editar o arquivo **composer.json**
 ```json
@@ -528,4 +528,8 @@ require dirname(path: __DIR__) . '/vendor/autoload.php';
 OBS:
 - As classes devem estar dentro da pasta **src/{namespace}**
 - A pasta **src** será a pasta de Sources Root
+
+### PSR-4 Configuração avançada
+
+https://github.com/Renanvt/dev-back-end-II/tree/main/Configuracao
 
