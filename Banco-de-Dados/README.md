@@ -1,7 +1,7 @@
 # Tòpicos
-- [Conceitos básicos de banco de dados relacionais](Conceitos-básicos-de-banco-de-dados-relacionais)
-- [DML - Data Manipulation Language](DML---Data-Manipulation-Language)
-- [Utilizar o mysql no terminal](Utilizar-o-mysql-no-terminal)
+- [Conceitos básicos de banco de dados relacionais](#Conceitos-básicos-de-banco-de-dados-relacionais)
+- [DML - Data Manipulation Language](#DML---Data-Manipulation-Language)
+- [Utilizar o mysql no terminal](#Utilizar-o-mysql-no-terminal)
 
 # Conceitos básicos de banco de dados relacionais
 
