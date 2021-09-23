@@ -1,8 +1,9 @@
 # Tópicos
--[API: conceito](#API:-conceito)
--[Extensão MySQLi](#Extensão-MySQLi)
--[PreparadStatement](#PreparadStatement)
--[Extensão-PDO](#Extensão-PDO)
+
+- [API: conceito](#API:-conceito)
+- [Extensão MySQLi](#Extensão-MySQLi)
+- [PreparadStatement](#PreparadStatement)
+- [Extensão-PDO](#Extensão-PDO)
 
 # API: conceito
 
