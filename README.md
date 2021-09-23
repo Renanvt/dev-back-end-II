@@ -378,7 +378,7 @@ De acordo com Dall’Oglio (2009, p. 98),
 Resumindo, a herança se utiliza de uma classe denominada classe filha, que tem os mesmos atributos e responsabilidades de outra classe chamada de classe mãe
 ou classe pai e os seus próprios atributos e responsabilidades. As classes inferiores da hierarquia, automaticamente, herdam todas as propriedades e os métodos das classes superiores, chamadas de superclasses, confira a figura a seguir
 
-![Herança]('img/herança.png')
+![Herança](img/herança.png)
 
 Confira a sintaxe a seguir
 
