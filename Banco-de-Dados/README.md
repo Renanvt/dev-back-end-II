@@ -1,3 +1,8 @@
+# Tòpicos
+- [Conceitos básicos de banco de dados relacionais](Conceitos-básicos-de-banco-de-dados-relacionais)
+- [DML - Data Manipulation Language](DML---Data-Manipulation-Language)
+- [Utilizar o mysql no terminal](Utilizar-o-mysql-no-terminal)
+
 # Conceitos básicos de banco de dados relacionais
 
 O nome SQL significa Structured Query Language — Linguagem Estruturada de Pesquisa. A SQL se tornou um padrão no mundo
